@@ -65,7 +65,7 @@ body {
 #testimonials{
   padding: 7% 15%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: #fff;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 #press{
-  background-color: #ef8172;
+  background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -87,6 +87,35 @@ body {
 }
 
 #pricing{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
   text-align: center;
   padding: 7% 15%;
 }
